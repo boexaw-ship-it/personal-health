@@ -1,0 +1,12 @@
+/* ==========================================================================
+   Premium Dark UI Color Palette & Glassmorphic Variables
+   ========================================================================== */
+:root {
+    --bg-gradient: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+    --glass-bg: rgba(255, 255, 255, 0.05);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --text-main: #F8FAFC;
+    --text-muted: #94A3B8;
+    --accent-glow: #38BDF8;
+    --card-inner-bg: rgba(15, 23, 42, 0.6);
+}
