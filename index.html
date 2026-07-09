@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthTrack Pro - Medicine Registry</title>
+    
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#0B192C">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header-fixed-group">
+            <header class="profile-header">
+                <div class="user-info">
+                    <p>Welcome BAZAW,</p>
+                    <h1>HealthTrack Pro</h1>
+                </div>
+                <div class="avatar-wrapper">B</div>
+            </header>
+
+            <section style="margin-bottom: 16px;">
+                <div class="med-glass-card" style="background: rgba(56, 189, 248, 0.08); border-color: rgba(56, 189, 248, 0.2);">
+                    <div class="med-image-slot" style="background: rgba(56, 189, 248, 0.2); font-size: 1.5rem;">🧪</div>
+                    <div class="med-details">
+                        <h3 style="color: #38BDF8;">နောက်ဆုံး ဆီး‌ဆေးခဲ့သည့်ရက်စွဲ</h3>
+                        <p class="brand" style="color: #F8FAFC; font-size: 1.1rem; font-weight: 700; margin-top: 4px;" id="urine-date-display">ခေတ္တစောင့်ဆိုင်းပါ...</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="section-title-bar">
+                <h2>လက်ရှိဆေးဝါးများစာရင်း </h2>
+            </div>
+        </div>
+
+        <main class="scrollable-content">
+            <div class="medicine-grid" id="medicine-grid"></div>
+        </main>
+    </div>
+
+    <nav class="floating-nav">
+        <button class="nav-link active">
+            <span class="nav-icon">📋</span>
+            <span>ဆေးစာရင်း</span>
+        </button>
+        <button class="nav-link">
+            <span class="nav-icon">📊</span>
+            <span>ဒေတာမှတ်တမ်း</span>
+        </button>
+    </nav>
+
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
