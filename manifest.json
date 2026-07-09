@@ -1,0 +1,21 @@
+{
+  "short_name": "HealthTrack",
+  "name": "HealthTrack Pro - Medicine Tracker",
+  "icons": [
+    {
+      "src": "assets/images/placeholder.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "assets/images/placeholder.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/personal-health/index.html",
+  "background_color": "#0F172A",
+  "theme-color": "#0B192C",
+  "display": "standalone",
+  "orientation": "portrait"
+}
