@@ -5,19 +5,19 @@ const URINE_TEST_DATE = "2026-July-08";
 const MEDICINE_DATA = [
     { 
         "id": 1, 
-        "name": "Biogesic", 
-        "brand": "Paracetamol", 
-        "image": "assets/images/biogesic.jpg", 
-        "unit_type": "ကဒ်", 
-        "quantity": 5 
+        "name": "Cream of Magnesium", 
+        "brand": "MOM 300mg", 
+        "image": "assets/images/com.png", 
+        "unit_type": "ဗူး", 
+        "quantity": 4 
     },
     { 
         "id": 2, 
-        "name": "Decolgen", 
-        "brand": "Cold & Flu", 
-        "image": "assets/images/decolgen.png", 
+        "name": "Celiv TABLET", 
+        "brand": "BP 100mg"
+        "image": "assets/images/cv.png", 
         "unit_type": "ဗူး", 
-        "quantity": 2 
+        "quantity": 3 
     },
     { 
         "id": 3, 
