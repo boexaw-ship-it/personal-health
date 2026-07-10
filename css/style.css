@@ -1,5 +1,5 @@
 /* ==========================================================================
-   💡 PREMIUM FIX: Main Bar, Photo Frame နှင့် Badge ဒီဇိုင်းအသစ်များ
+   💡 PREMIUM BALANCE: ဆီးစစ်ကတ်ကို အရောင်ခွဲ၍ ဆေး Frame အရောင်ကို လျှော့ချခြင်း
    ========================================================================== */
 * {
     box-sizing: border-box;
@@ -17,7 +17,7 @@ html, body {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background: #0B132B; /* ပိုမိုနက်မှောင်၍ Premium ဆန်သော Dark Background */
+    background: #0B132B;
     color: #F8FAFC;
 }
 
@@ -50,7 +50,50 @@ body {
 }
 
 /* ==========================================================================
-   💎 PREMIUM CHANGED: Main Bar & Cards (ပိုမို ပေါ်လွင်တောက်ပလာသော Main Bar)
+   🧪 NEW CHANGED: အပေါ်က ဆီးစစ်သည့်ကွက် (Urine Widget - မြရောင်ငြိမ်းငြိမ်းလေး)
+   ========================================================================== */
+.urine-glass-card {
+    background: rgba(15, 118, 110, 0.15); /* စိမ်းပြာရောင်ကြည် နုနု */
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(45, 212, 191, 0.3); /* မြရောင်အေးအေး ဘောင်လိုင်း */
+    border-radius: 20px;
+    padding: 20px 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    box-shadow: 0 4px 20px rgba(13, 148, 136, 0.1);
+    margin-bottom: 24px;
+}
+
+.urine-icon-slot {
+    width: 64px;
+    height: 64px;
+    border-radius: 14px;
+    background: #0F172A;
+    border: 1.5px solid #2DD4BF; /* Icon Frame ကို မြရောင် ပြောင်းလဲခြင်း */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.urine-details h3 {
+    font-size: 1rem;
+    color: #2DD4BF; /* စာသားအရောင် မြရောင် */
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.urine-details p {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+/* ==========================================================================
+   💊 CHANGED: အောက်က ဆေးကတ်ပြားများနှင့် ဓာတ်ပုံဘောင် (အရောင်လျှော့ချပြီး)
    ========================================================================== */
 .medicine-grid {
     display: flex;
@@ -59,32 +102,26 @@ body {
 }
 
 .med-glass-card {
-    background: rgba(30, 41, 59, 0.7); /* Main Bar နောက်ခံကို ပိုလင်းအောင်မြှင့်ထားသည် */
+    background: rgba(30, 41, 59, 0.4); /* နောက်ခံကို ပိုမှောင်ပြီး ငြိမ်အောင်ထားသည် */
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    border: 1px solid rgba(255, 255, 255, 0.1); /* Bar ဘောင်လိုင်းအား ပိုမိုထင်ရှားစေခြင်း */
+    border: 1px solid rgba(255, 255, 255, 0.06); 
     border-radius: 20px;
     padding: 16px;
     display: flex;
     align-items: center;
     gap: 16px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease;
 }
 
-.med-glass-card:active {
-    transform: scale(0.98);
-    background: rgba(30, 41, 59, 0.9);
-}
-
-/* 🖼️ NEW: ဆေး Photo Frame (ဓာတ်ပုံဘောင်စနစ် အသစ်စက်စက်) */
+/* 🖼️ FIX: ဓာတ်ပုံဘောင်အား တောက်လွန်းသော အပြာရောင်မှ ငြိမ်သက်သော မီးခိုးရောင်သို့ ပြောင်းလဲခြင်း */
 .med-image-slot {
     width: 80px;
     height: 80px;
     border-radius: 14px;
-    background: #0F172A;
-    border: 2px solid #38BDF8; /* လျှပ်စစ်အပြာရောင် Frame ဘောင်လိုင်း */
-    box-shadow: 0 0 12px rgba(56, 189, 248, 0.3); /* Frame အား Glow Light ထည့်ပေးခြင်း */
+    background: #1E293B;
+    border: 1px solid rgba(255, 255, 255, 0.15); /* မျက်စိအေးစေမည့် သပ်ရပ်သော ဘောင်လိုင်း */
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -115,21 +152,19 @@ body {
     margin-bottom: 8px;
 }
 
-/* 🏷️ NEW DESIGN: ဗူးပုံစံ Badge အသစ် (📦 အစား ပရီမီယံ Neon Badge ပြောင်းလဲခြင်း) */
 .stock-badge-pill {
     display: inline-flex;
     align-items: center;
-    background: rgba(56, 189, 248, 0.15);
-    border: 1px solid rgba(56, 189, 248, 0.4);
-    padding: 6px 14px;
-    border-radius: 30px; /* Capsule ပုံစံ ကွက်တိဖြစ်စေရန် */
+    background: rgba(56, 189, 248, 0.1);
+    border: 1px solid rgba(56, 189, 248, 0.25);
+    padding: 5px 12px;
+    border-radius: 30px;
     color: #38BDF8;
     font-size: 0.8rem;
     font-weight: 600;
-    letter-spacing: 0.5px;
 }
 
-/* Top Area Components */
+/* Header & Typography */
 .profile-header {
     display: flex;
     justify-content: space-between;
