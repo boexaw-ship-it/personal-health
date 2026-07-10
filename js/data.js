@@ -29,7 +29,7 @@ const MEDICINE_DATA = [
     },
     { 
         "id": 4, 
-        "name": "Neurofort", 
+        "name": "NEUROFORT", 
         "brand": "အာရုံကြောအားဆေး", 
         "image": "assets/images/neu.png", 
         "unit_type": "ကဒ်", 
@@ -37,7 +37,7 @@ const MEDICINE_DATA = [
     },
     { 
         "id": 5, 
-        "name": "Bioplasmatem", 
+        "name": "Bioplacenton", 
         "brand": "အနာထည့်ဆေး", 
         "image": "assets/images/bio.png", 
         "unit_type": "ဗူး", 
