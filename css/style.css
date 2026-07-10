@@ -1,5 +1,5 @@
 /* ==========================================================================
-   💡 HIGH CONTRAST FIX: အမှောင်နောက်ခံတွင် စာသားများ (၁၀၀%) ထင်ရှားစေရန် ပြင်ဆင်မှု
+   💎 PREMIUM FINAL UI: အမှောင် Theme နှင့် ကွက်တိငြိစေမည့် အချောသတ် ဒီဇိုင်းစနစ်
    ========================================================================== */
 * {
     box-sizing: border-box;
@@ -17,7 +17,7 @@ html, body {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background: #0B132B;
+    background: #0B132B; /* ပရီမီယံ Dark Navy Deep Background */
     color: #F8FAFC;
 }
 
@@ -50,26 +50,26 @@ body {
 }
 
 /* ==========================================================================
-   🧪 💡 FIX: အပေါ်က ဆီးစစ်သည့်ကွက် (စာသားများ လုံးဝ ရှင်းလင်းတောက်ပစေရမည်)
+   🧪 အပေါ်က ဆီးစစ်သည့်ကွက် (Urine Widget)
    ========================================================================== */
 .urine-glass-card {
-    background: rgba(15, 118, 110, 0.2); 
+    background: rgba(15, 118, 110, 0.15); 
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    border: 1px solid rgba(45, 212, 191, 0.4); 
-    border-radius: 20px;
+    border: 1px solid rgba(45, 212, 191, 0.3); 
+    border-radius: 24px; /* အပေါ်ကတ်ကိုပါ လှပစွာ ထောင့်ကွေးပေးခြင်း */
     padding: 20px 16px;
     display: flex;
     align-items: center;
     gap: 16px;
-    box-shadow: 0 4px 24px rgba(13, 148, 136, 0.15);
+    box-shadow: 0 4px 24px rgba(13, 148, 136, 0.1);
     margin-bottom: 24px;
 }
 
 .urine-icon-slot {
     width: 64px;
     height: 64px;
-    border-radius: 14px;
+    border-radius: 18px;
     background: #0F172A;
     border: 1.5px solid #2DD4BF;
     display: flex;
@@ -79,7 +79,6 @@ body {
     flex-shrink: 0;
 }
 
-/* 💡 FIX: မှုန်ဝါးနေသော အပြာရောင်မှ တောက်ပထင်ရှားသော မြစိမ်းရောင်သို့ ပြောင်းလဲခြင်း */
 .urine-details h3 {
     font-size: 1.05rem;
     color: #2DD4BF; 
@@ -91,11 +90,11 @@ body {
 .urine-details p {
     font-size: 1.4rem;
     font-weight: 700;
-    color: #FFFFFF; /* ရက်စွဲကို အဖြူရောင်စစ်စစ်ဖြင့် ပေါ်လွင်စေခြင်း */
+    color: #FFFFFF;
 }
 
 /* ==========================================================================
-   💊 ဆေးကတ်ပြားများနှင့် ဓာတ်ပုံဘောင်များ
+   💊 💡 FIX: အောက်က ဆေးကတ်ပြားများနှင့် Bar Frame အကြီး (ပိုမို ကွေးညွှတ်၍ ပရီမီယံဆန်ခြင်း)
    ========================================================================== */
 .medicine-grid {
     display: flex;
@@ -104,36 +103,39 @@ body {
 }
 
 .med-glass-card {
-    background: rgba(30, 41, 59, 0.5); 
-    backdrop-filter: blur(16px);
-    -webkit-backdrop-filter: blur(16px);
-    border: 1px solid rgba(255, 255, 255, 0.08); 
-    border-radius: 20px;
+    background: rgba(22, 32, 51, 0.6); /* Bar Frame နောက်ခံကို နက်မှောင်ကြည်လင်စေခြင်း */
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.08); /* ပါးလွှာသပ်ရပ်သော မှန်ကြည်ဘောင်လိုင်း */
+    border-radius: 24px; /* 💡 FIX: Bar Frame အကြီးကို ပိုမိုလှပစွာ ထောင့်ကွေးပေးလိုက်ခြင်း */
     padding: 16px;
     display: flex;
     align-items: center;
-    gap: 16px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+    gap: 18px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
     transition: all 0.2s ease;
 }
 
+/* 🖼  💡 FIX: ဆေး Photo Frame အား နူးညံ့လှပသော အဝိုင်းစတိုင်သို့ ပြောင်းလဲခြင်း */
 .med-image-slot {
-    width: 80px;
-    height: 80px;
-    border-radius: 14px;
-    background: #1E293B;
-    border: 1px solid rgba(255, 255, 255, 0.15); 
+    width: 84px;
+    height: 84px;
+    border-radius: 20px; /* 💡 FIX: Photo Frame ကို ပိုမိုကွေးညွှတ်သော Rounded Dynamic စတိုင်ပြောင်းခြင်း */
+    background: #090F20; /* ဓာတ်ပုံနောက်ခံကို ပိုမှောင်ချလိုက်ခြင်း */
+    border: 1px solid rgba(255, 255, 255, 0.12); /* မတောက်လွန်းသော သပ်ရပ်သည့် ဘောင်လိုင်း */
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
+    box-shadow: inset 0 2px 8px rgba(0,0,0,0.5);
 }
 
 .med-image-slot img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 88%; /* 💡 ဓာတ်ပုံလေးတွေ Frame ထဲမှာ အနည်းငယ် ချုံ့ပေးပြီး သပ်ရပ်စေခြင်း */
+    height: 88%;
+    object-fit: contain;
+    border-radius: 12px;
 }
 
 .med-details {
@@ -143,30 +145,31 @@ body {
 .med-details h3 {
     font-size: 1.15rem;
     font-weight: 600;
-    color: #FFFFFF; /* ဆေးအမည်ကို အဖြူရောင်စစ်စစ် ထားရှိခြင်း */
+    color: #FFFFFF;
     margin-bottom: 4px;
 }
 
 .med-details .brand {
     font-size: 0.85rem;
     color: #94A3B8;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
-/* 💡 FIX: Badge အတွင်းရှိ စာသားများကို ဖတ်ရလွယ်ကူစေရန် အဖြူရောင်စစ်စစ် ပြောင်းလဲခြင်း */
+/* 🏷️ 💡 FIX: ဖြူလွန်းသော စာသားကို ဖြုတ်၍ မျက်စိအေးစေမည့် Premium Neon Blue Badge စတိုင်ပြောင်းလဲခြင်း */
 .stock-badge-pill {
     display: inline-flex;
     align-items: center;
-    background: rgba(56, 189, 248, 0.12);
-    border: 1px solid rgba(56, 189, 248, 0.4); /* ဘောင်လိုင်းအား ပိုမိုထင်ရှားစေခြင်း */
-    padding: 6px 14px;
+    background: rgba(56, 189, 248, 0.1); /* ရင်အေးစေမည့် အပြာနုရောင်ဖျော့ဖျော့ */
+    border: 1px solid rgba(56, 189, 248, 0.35); 
+    padding: 5px 14px;
     border-radius: 30px;
-    color: #FFFFFF; /* 💡 စာသားအရောင်ကို မီးခိုးရောင်မှ အဖြူရောင်စစ်စစ်သို့ ပြောင်းလဲခြင်း */
-    font-size: 0.85rem;
+    color: #38BDF8; /* 💡 FIX: ဖြူလွန်းသော အရောင်မှ စမတ်ကျသော အပြာနုရောင်သို့ ပြောင်းလဲခြင်း */
+    font-size: 0.8rem;
     font-weight: 600;
+    letter-spacing: 0.3px;
 }
 
-/* Header & Typography */
+/* Header & Navigation */
 .profile-header {
     display: flex;
     justify-content: space-between;
@@ -197,7 +200,6 @@ body {
     color: #38BDF8;
 }
 
-/* Floating Navigation Bar */
 .floating-nav {
     position: fixed;
     bottom: 24px;
