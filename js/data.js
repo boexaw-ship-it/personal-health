@@ -21,99 +21,99 @@ const MEDICINE_DATA = [
     },
     { 
         "id": 3, 
-        "name": "Amoxicillin", 
-        "brand": "Antibiotic", 
-        "image": "assets/images/placeholder.png", 
-        "unit_type": "လုံး", 
-        "quantity": 12 
+        "name": "AiR X", 
+        "brand": "‌‌‌‌လေဆေး", 
+        "image": "assets/images/ax.png", 
+        "unit_type": "ကဒ်", 
+        "quantity": 2 
     },
     { 
         "id": 4, 
-        "name": "Enervon-C", 
-        "brand": "Vitamin C", 
-        "image": "assets/images/placeholder.png", 
+        "name": "Neurofort", 
+        "brand": "အာရုံကြောအားဆေး", 
+        "image": "assets/images/neu.png", 
+        "unit_type": "ကဒ်", 
+        "quantity": 2 
+    },
+    { 
+        "id": 5, 
+        "name": "Bioplasmatem", 
+        "brand": "အနာထည့်ဆေး", 
+        "image": "assets/images/bio.png", 
         "unit_type": "ဗူး", 
         "quantity": 1 
     },
     { 
-        "id": 5, 
-        "name": "Amlodipine", 
-        "brand": "Blood Pressure", 
-        "image": "assets/images/placeholder.png", 
-        "unit_type": "ကဒ်", 
-        "quantity": 4 
-    },
-    { 
         "id": 6, 
-        "name": "Metformin", 
-        "brand": "Diabetes", 
-        "image": "assets/images/placeholder.png", 
-        "unit_type": "ကဒ်", 
+        "name": "Lidomax Gel", 
+        "brand": "ဆီးချူgel", 
+        "image": "assets/images/lid.png", 
+        "unit_type": "ဗူး", 
         "quantity": 3 
     },
     { 
         "id": 7, 
-        "name": "Atorvastatin", 
-        "brand": "Cholesterol", 
-        "image": "assets/images/placeholder.png", 
-        "unit_type": "လုံး", 
-        "quantity": 10 
+        "name": "Methylated", 
+        "brand": "အရက်ပြန်", 
+        "image": "assets/images/met.png", 
+        "unit_type": "ဗူး", 
+        "quantity": 2 
     },
     { 
         "id": 8, 
-        "name": "Omeprazole", 
-        "brand": "Gastric", 
-        "image": "assets/images/placeholder.png", 
-        "unit_type": "ကဒ်", 
-        "quantity": 6 
-    },
-    { 
-        "id": 9, 
-        "name": "Cetirizine", 
-        "brand": "Allergy", 
-        "image": "assets/images/placeholder.png", 
-        "unit_type": "ကဒ်", 
-        "quantity": 8 
-    },
-    { 
-        "id": 10, 
-        "name": "Salbutamol", 
-        "brand": "Asthma Inhaler", 
+        "name": "Sodium of chloride", 
+        "brand": "NS 500ml", 
         "image": "assets/images/placeholder.png", 
         "unit_type": "ဗူး", 
         "quantity": 2 
     },
     { 
+        "id": 9, 
+        "name": "Dura Condom", 
+        "brand": "ဆီး တပ် ကွန်ဒုံး", 
+        "image": "assets/images/cd.png", 
+        "unit_type": "အခု", 
+        "quantity": 70 
+    },
+    { 
+        "id": 10, 
+        "name": "ဆီးချူပိုက်", 
+        "brand": "No 7", 
+        "image": "assets/images/chu.png", 
+        "unit_type": "ချောင်း",
+        "quantity": 6 
+    },
+    { 
         "id": 11, 
-        "name": "Losartan", 
-        "brand": "Blood Pressure", 
+        "name": "3M Marpotape", 
+        "brand": "½ 24", 
         "image": "assets/images/placeholder.png", 
-        "unit_type": "ကဒ်", 
-        "quantity": 5 
+        "unit_type": "ဗူး", 
+        "quantity": 2 
     },
     { 
         "id": 12, 
-        "name": "Gliclazide", 
-        "brand": "Diabetes", 
-        "image": "assets/images/placeholder.png", 
+        "name": "Surgical Gloves", 
+        "brand": "ဆီးဆေး", 
+        "image": "assets/images/sg.png", 
         "unit_type": "လုံး", 
-        "quantity": 20 
+        "quantity": 0 
     },
     { 
         "id": 13, 
-        "name": "Neurobion", 
-        "brand": "Vitamin B1-6-12", 
-        "image": "assets/images/placeholder.png", 
-        "unit_type": "ကဒ်", 
-        "quantity": 7 
+        "name": "ဆီးဆေးပိုက်", 
+        "brand": "2 way 16fr", 
+        "image": "assets/images/uri.png", 
+        "unit_type": "ချောင်း",
+        "quantity": 5 
     },
     { 
         "id": 14, 
-        "name": "Paracetamol (650mg)", 
-        "brand": "Pain Relief", 
-        "image": "assets/images/placeholder.png", 
-        "unit_type": "လုံး", 
-        "quantity": 15 
+        "name": "ဆေးထိုး slin", 
+        "brand": "500mg", 
+        "image": "assets/images/sl.png", 
+        "unit_type": "ချောင်း", 
+        "quantity": 0 
     },
     { 
         "id": 15, 
