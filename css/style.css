@@ -1,5 +1,5 @@
 /* ==========================================================================
-   💡 PREMIUM BALANCE: ဆီးစစ်ကတ်ကို အရောင်ခွဲ၍ ဆေး Frame အရောင်ကို လျှော့ချခြင်း
+   💡 HIGH CONTRAST FIX: အမှောင်နောက်ခံတွင် စာသားများ (၁၀၀%) ထင်ရှားစေရန် ပြင်ဆင်မှု
    ========================================================================== */
 * {
     box-sizing: border-box;
@@ -50,19 +50,19 @@ body {
 }
 
 /* ==========================================================================
-   🧪 NEW CHANGED: အပေါ်က ဆီးစစ်သည့်ကွက် (Urine Widget - မြရောင်ငြိမ်းငြိမ်းလေး)
+   🧪 💡 FIX: အပေါ်က ဆီးစစ်သည့်ကွက် (စာသားများ လုံးဝ ရှင်းလင်းတောက်ပစေရမည်)
    ========================================================================== */
 .urine-glass-card {
-    background: rgba(15, 118, 110, 0.15); /* စိမ်းပြာရောင်ကြည် နုနု */
+    background: rgba(15, 118, 110, 0.2); 
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    border: 1px solid rgba(45, 212, 191, 0.3); /* မြရောင်အေးအေး ဘောင်လိုင်း */
+    border: 1px solid rgba(45, 212, 191, 0.4); 
     border-radius: 20px;
     padding: 20px 16px;
     display: flex;
     align-items: center;
     gap: 16px;
-    box-shadow: 0 4px 20px rgba(13, 148, 136, 0.1);
+    box-shadow: 0 4px 24px rgba(13, 148, 136, 0.15);
     margin-bottom: 24px;
 }
 
@@ -71,7 +71,7 @@ body {
     height: 64px;
     border-radius: 14px;
     background: #0F172A;
-    border: 1.5px solid #2DD4BF; /* Icon Frame ကို မြရောင် ပြောင်းလဲခြင်း */
+    border: 1.5px solid #2DD4BF;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,21 +79,23 @@ body {
     flex-shrink: 0;
 }
 
+/* 💡 FIX: မှုန်ဝါးနေသော အပြာရောင်မှ တောက်ပထင်ရှားသော မြစိမ်းရောင်သို့ ပြောင်းလဲခြင်း */
 .urine-details h3 {
-    font-size: 1rem;
-    color: #2DD4BF; /* စာသားအရောင် မြရောင် */
-    font-weight: 500;
-    margin-bottom: 4px;
+    font-size: 1.05rem;
+    color: #2DD4BF; 
+    font-weight: 600;
+    margin-bottom: 6px;
+    letter-spacing: 0.3px;
 }
 
 .urine-details p {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: 700;
-    color: #FFFFFF;
+    color: #FFFFFF; /* ရက်စွဲကို အဖြူရောင်စစ်စစ်ဖြင့် ပေါ်လွင်စေခြင်း */
 }
 
 /* ==========================================================================
-   💊 CHANGED: အောက်က ဆေးကတ်ပြားများနှင့် ဓာတ်ပုံဘောင် (အရောင်လျှော့ချပြီး)
+   💊 ဆေးကတ်ပြားများနှင့် ဓာတ်ပုံဘောင်များ
    ========================================================================== */
 .medicine-grid {
     display: flex;
@@ -102,26 +104,25 @@ body {
 }
 
 .med-glass-card {
-    background: rgba(30, 41, 59, 0.4); /* နောက်ခံကို ပိုမှောင်ပြီး ငြိမ်အောင်ထားသည် */
+    background: rgba(30, 41, 59, 0.5); 
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
-    border: 1px solid rgba(255, 255, 255, 0.06); 
+    border: 1px solid rgba(255, 255, 255, 0.08); 
     border-radius: 20px;
     padding: 16px;
     display: flex;
     align-items: center;
     gap: 16px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
     transition: all 0.2s ease;
 }
 
-/* 🖼️ FIX: ဓာတ်ပုံဘောင်အား တောက်လွန်းသော အပြာရောင်မှ ငြိမ်သက်သော မီးခိုးရောင်သို့ ပြောင်းလဲခြင်း */
 .med-image-slot {
     width: 80px;
     height: 80px;
     border-radius: 14px;
     background: #1E293B;
-    border: 1px solid rgba(255, 255, 255, 0.15); /* မျက်စိအေးစေမည့် သပ်ရပ်သော ဘောင်လိုင်း */
+    border: 1px solid rgba(255, 255, 255, 0.15); 
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -140,9 +141,9 @@ body {
 }
 
 .med-details h3 {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     font-weight: 600;
-    color: #FFFFFF;
+    color: #FFFFFF; /* ဆေးအမည်ကို အဖြူရောင်စစ်စစ် ထားရှိခြင်း */
     margin-bottom: 4px;
 }
 
@@ -152,15 +153,16 @@ body {
     margin-bottom: 8px;
 }
 
+/* 💡 FIX: Badge အတွင်းရှိ စာသားများကို ဖတ်ရလွယ်ကူစေရန် အဖြူရောင်စစ်စစ် ပြောင်းလဲခြင်း */
 .stock-badge-pill {
     display: inline-flex;
     align-items: center;
-    background: rgba(56, 189, 248, 0.1);
-    border: 1px solid rgba(56, 189, 248, 0.25);
-    padding: 5px 12px;
+    background: rgba(56, 189, 248, 0.12);
+    border: 1px solid rgba(56, 189, 248, 0.4); /* ဘောင်လိုင်းအား ပိုမိုထင်ရှားစေခြင်း */
+    padding: 6px 14px;
     border-radius: 30px;
-    color: #38BDF8;
-    font-size: 0.8rem;
+    color: #FFFFFF; /* 💡 စာသားအရောင်ကို မီးခိုးရောင်မှ အဖြူရောင်စစ်စစ်သို့ ပြောင်းလဲခြင်း */
+    font-size: 0.85rem;
     font-weight: 600;
 }
 
@@ -203,10 +205,10 @@ body {
     transform: translateX(-50%);
     width: calc(100% - 32px);
     max-width: 448px;
-    background: rgba(15, 23, 42, 0.9);
+    background: rgba(15, 23, 42, 0.95);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 24px;
     padding: 14px 28px;
     display: flex;
