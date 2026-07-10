@@ -63,7 +63,7 @@ const MEDICINE_DATA = [
         "id": 8, 
         "name": "Sodium of chloride", 
         "brand": "NS 500ml", 
-        "image": "assets/images/placeholder.png", 
+        "image": "assets/images/ns.png", 
         "unit_type": "ဗူး", 
         "quantity": 2 
     },
@@ -87,7 +87,7 @@ const MEDICINE_DATA = [
         "id": 11, 
         "name": "3M Marpotape", 
         "brand": "½ 24", 
-        "image": "assets/images/placeholder.png", 
+        "image": "assets/images/3m.png", 
         "unit_type": "ဗူး", 
         "quantity": 2 
     },
