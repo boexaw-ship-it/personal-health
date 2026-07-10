@@ -1,7 +1,7 @@
 // 💡 နောက်ဆုံး ဆီးစစ်ခဲ့သည့် ရက်စွဲ
 const URINE_TEST_DATE = "2026-July-08"; 
 
-// 💡 ဆေး ၁၅ မျိုး၏ စာရင်း (Vertical Format)
+// 💡 ဆေး ၁၅ မျိုး၏ စာရင်း (Vertical Format - အမှန်ပြင်ပြီး)
 const MEDICINE_DATA = [
     { 
         "id": 1, 
@@ -14,7 +14,7 @@ const MEDICINE_DATA = [
     { 
         "id": 2, 
         "name": "Celiv TABLET", 
-        "brand": "BP 100mg"
+        "brand": "BP 100mg",    /* 💡 FIX: ကျန်ခဲ့သော ကော်မာ ( , ) အား ထည့်သွင်းထားပါသည် */
         "image": "assets/images/cv.png", 
         "unit_type": "ဗူး", 
         "quantity": 3 
