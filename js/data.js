@@ -49,7 +49,7 @@ const MEDICINE_DATA = [
         "brand": "ဆီးချူgel", 
         "image": "assets/images/lid.png", 
         "unit_type": "ဗူး", 
-        "quantity": 3 
+        "quantity": 2 
     },
     { 
         "id": 7, 
