@@ -9,7 +9,7 @@ const MEDICINE_DATA = [
         "brand": "MOM 300mg", 
         "image": "assets/images/com.png", 
         "unit_type": "ဗူး", 
-        "quantity": 3 
+        "quantity": 5 
     },
     { 
         "id": 2, 
@@ -33,7 +33,7 @@ const MEDICINE_DATA = [
         "brand": "အာရုံကြောအားဆေး", 
         "image": "assets/images/neu.png", 
         "unit_type": "ကဒ်", 
-        "quantity": 1 
+        "quantity": 4 
     },
     { 
         "id": 5, 
@@ -57,7 +57,7 @@ const MEDICINE_DATA = [
         "brand": "အရက်ပြန်", 
         "image": "assets/images/met.png", 
         "unit_type": "ဗူး", 
-        "quantity": 2 
+        "quantity": 6 
     },
     { 
         "id": 8, 
@@ -65,7 +65,7 @@ const MEDICINE_DATA = [
         "brand": "NS 500ml", 
         "image": "assets/images/ns.png", 
         "unit_type": "ဗူး", 
-        "quantity": 2 
+        "quantity": 3 
     },
     { 
         "id": 9, 
@@ -94,10 +94,10 @@ const MEDICINE_DATA = [
     { 
         "id": 12, 
         "name": "Surgical Gloves", 
-        "brand": "ဆီးဆေး", 
+        "brand": "ဆီးဆေး 7.5", 
         "image": "assets/images/sg.png", 
         "unit_type": "လုံး", 
-        "quantity": 0 
+        "quantity": 3 
     },
     { 
         "id": 13, 
@@ -113,7 +113,7 @@ const MEDICINE_DATA = [
         "brand": "500mg", 
         "image": "assets/images/sl.png", 
         "unit_type": "ချောင်း", 
-        "quantity": 0 
+        "quantity": 3 
     },
     { 
         "id": 15, 
