@@ -121,6 +121,6 @@ const MEDICINE_DATA = [
         brand: "Anti-Histamine", 
         image: "assets/images/placeholder.png", 
         unitType: "ကဒ်", 
-        quantity: 3 
+        quantity: 4 
     }
 ];
