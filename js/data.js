@@ -9,7 +9,7 @@ const MEDICINE_DATA = [
         "brand": "MOM 300mg", 
         "image": "assets/images/com.png", 
         "unit_type": "ဗူး", 
-        "quantity": 4 
+        "quantity": 5 
     },
     { 
         "id": 2, 
